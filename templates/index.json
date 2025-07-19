@@ -1,0 +1,164 @@
+{
+  "sections": {
+    "hero_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Battle Creek Motorcycle Club",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Premier motocross and offroad racing facility in Michigan",
+            "text_style": "body"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View Events",
+            "button_link_1": "/pages/events",
+            "button_style_secondary_1": false,
+            "button_label_2": "Join the Club",
+            "button_link_2": "/pages/membership",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "image": "",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "image_behavior": "none",
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "club_info": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Our Club",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Battle Creek Motorcycle Club has been providing premier motocross and offroad racing experiences since 1968. Our facility features multiple tracks including a main motocross track, a vintage track, and extensive offroad trails.</p><p>We host regular race events, practice days, and special competitions throughout the season. Whether you're a seasoned racer or just getting started, BCMC offers something for every skill level.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "upcoming_events": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Upcoming Events",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Check out our latest race events and practice days. Join us for exciting competition and family fun!</p><p><strong>March 15-16, 2024 - Spring Kickoff Race Series</strong><br>Start the season with our exciting spring race series featuring multiple classes and skill levels.</p><p><strong>April 6-7, 2024 - Vintage Bike Weekend</strong><br>Celebrate classic motocross with vintage bikes, retro racing, and nostalgic fun for the whole family.</p><p><strong>April 20-21, 2024 - Youth Championship Series</strong><br>Supporting the next generation of riders with our youth championship series and development program.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "track_info": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Tracks",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Main Motocross Track:</strong> Our premier track features challenging jumps, rhythm sections, and technical corners designed for all skill levels.</p><p><strong>Vintage Track:</strong> A classic-style track perfect for vintage bikes and riders who prefer traditional motocross layouts.</p><p><strong>Offroad Trails:</strong> Miles of scenic trails through our wooded property, perfect for enduro and trail riding.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Track Map",
+            "button_link": "/pages/track-map",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "hero_banner",
+    "club_info",
+    "upcoming_events",
+    "track_info"
+  ]
+} 

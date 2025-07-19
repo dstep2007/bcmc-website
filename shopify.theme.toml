@@ -1,0 +1,25 @@
+# Shopify Theme Configuration
+# This file configures your theme for local development
+
+[development]
+# Development store URL (you'll need to replace this with your actual store URL)
+store = "your-store.myshopify.com"
+
+# Theme ID (will be set when you connect to your store)
+# theme_id = "123456789"
+
+# Development theme name
+name = "BCMC Dawn Theme - Development"
+
+# Ignore files that shouldn't be synced
+ignore_files = [
+  ".git/*",
+  ".github/*",
+  "node_modules/*",
+  "*.log",
+  ".DS_Store",
+  "Thumbs.db"
+]
+
+# Development settings
+development_store_id = "your-store-id" 

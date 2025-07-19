@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "page_header": {
+      "type": "main-page",
+      "settings": {
+        "show_date": false,
+        "show_author": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "events_schedule": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "2024 Event Schedule",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Spring Season (March - May)</h3><ul><li><strong>March 15-16:</strong> Spring Kickoff Race Series</li><li><strong>April 6-7:</strong> Vintage Bike Weekend</li><li><strong>April 20-21:</strong> Youth Championship Series</li><li><strong>May 4-5:</strong> Pro-Am Challenge</li><li><strong>May 18-19:</strong> Memorial Day Classic</li></ul><h3>Summer Season (June - August)</h3><ul><li><strong>June 8-9:</strong> Summer Nationals</li><li><strong>June 22-23:</strong> Family Fun Weekend</li><li><strong>July 13-14:</strong> Independence Day Spectacular</li><li><strong>July 27-28:</strong> Women's Motocross Championship</li><li><strong>August 10-11:</strong> Enduro Cross Challenge</li><li><strong>August 24-25:</strong> Summer Championship Finals</li></ul><h3>Fall Season (September - November)</h3><ul><li><strong>September 7-8:</strong> Fall Classic</li><li><strong>September 21-22:</strong> Vintage Championship</li><li><strong>October 5-6:</strong> Halloween Havoc</li><li><strong>October 19-20:</strong> Season Championship</li><li><strong>November 2-3:</strong> Turkey Trot Enduro</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "practice_info": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Practice Days",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Wednesday Practice:</strong> 4:00 PM - 8:00 PM (April - October)</p><p><strong>Saturday Practice:</strong> 9:00 AM - 5:00 PM (Year-round weather permitting)</p><p><strong>Sunday Practice:</strong> 9:00 AM - 3:00 PM (Year-round weather permitting)</p><p><strong>Practice Fees:</strong> $25 for members, $35 for non-members</p><p><strong>Requirements:</strong> Valid AMA membership, proper safety equipment, and signed waiver required.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Waiver",
+            "button_link": "/pages/waiver",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "page_header",
+    "events_schedule",
+    "practice_info"
+  ]
+} 

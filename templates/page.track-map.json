@@ -1,0 +1,191 @@
+{
+  "sections": {
+    "page_header": {
+      "type": "main-page",
+      "settings": {
+        "show_date": false,
+        "show_author": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "track_overview": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Track Layout & Facilities",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our 200-acre facility features multiple tracks and trails designed for riders of all skill levels. From beginner-friendly sections to challenging pro-level obstacles, BCMC has something for everyone.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "main_track": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Main Motocross Track",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Length:</strong> 1.2 miles</p><p><strong>Difficulty:</strong> Intermediate to Expert</p><p><strong>Features:</strong> Multiple rhythm sections, tabletops, step-ups, whoops, and technical corners</p><p><strong>Best For:</strong> Motocross racing, practice, and training</p><p><strong>Track Conditions:</strong> Professionally maintained with regular grooming and watering</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "vintage_track": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vintage Track",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Length:</strong> 0.8 miles</p><p><strong>Difficulty:</strong> Beginner to Intermediate</p><p><strong>Features:</strong> Classic motocross layout with natural terrain, smaller jumps, and flowing corners</p><p><strong>Best For:</strong> Vintage bikes, beginners, and family riding</p><p><strong>Special Events:</strong> Vintage bike weekends and classic motocross races</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "offroad_trails": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Offroad Trails",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Total Length:</strong> 15+ miles of trails</p><p><strong>Difficulty:</strong> All levels</p><p><strong>Features:</strong> Wooded single-track, open field sections, creek crossings, and hill climbs</p><p><strong>Best For:</strong> Enduro riding, trail riding, and adventure bikes</p><p><strong>Trail Marking:</strong> Color-coded difficulty levels (Green = Easy, Blue = Intermediate, Black = Expert)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "facilities": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Facilities & Amenities",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>On-Site Facilities</h3><ul><li><strong>Pit Area:</strong> Large paved pit area with electrical hookups</li><li><strong>Concession Stand:</strong> Food and beverages available during events</li><li><strong>Pro Shop:</strong> Basic parts and accessories</li><li><strong>Restrooms:</strong> Clean facilities with showers</li><li><strong>Spectator Areas:</strong> Multiple viewing areas around tracks</li><li><strong>Camping:</strong> Primitive camping available for events</li><li><strong>First Aid:</strong> On-site medical support during events</li></ul><h3>Safety & Rules</h3><ul><li>AMA membership required for all riders</li><li>Proper safety equipment mandatory</li><li>Helmet, boots, goggles, and protective gear required</li><li>No alcohol consumption while riding</li><li>Respect all posted speed limits and rules</li><li>Report any track issues to staff immediately</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "page_header",
+    "track_overview",
+    "main_track",
+    "vintage_track",
+    "offroad_trails",
+    "facilities"
+  ]
+} 
