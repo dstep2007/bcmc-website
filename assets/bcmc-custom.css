@@ -90,6 +90,11 @@
   z-index: 1;
 }
 
+/* Remove background from homepage hero banner box only */
+.banner__box {
+  background: transparent !important;
+}
+
 .banner__content {
   position: relative;
   z-index: 2;
